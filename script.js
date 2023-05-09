@@ -4,7 +4,7 @@ var indexNumber = 0;
 var sequenciamax = 0;
 var sequencia = 0;
 
-
+newCharacter();
 
 function newCharacter() {
   var pokeImage = document.getElementById("imagem");
