@@ -1,0 +1,137 @@
+body {
+  font: sans-serif;
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+  text-align: center;
+  border: groove 8px #ffcb05;
+  border-radius: 20px;
+  min-width: 550px;
+  max-width: 550px;
+}
+
+h1{
+  background-color: #2c72b8;
+  margin: auto;
+  color: #ffcb05;
+  border-radius: 10px;
+}
+
+.logo{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg"); 
+  width: 335px;
+  height: 100px;
+  background-repeat: no-repeat;
+  margin: 3% auto 0;
+  transform: translatex(7%);
+}
+
+.container {
+  background-color: rgba(199, 160, 8, 0.8);
+  border-radius: 5px;
+  box-shadow: 6px 15px 16px 12px rgba(0,0,0,0.72);
+}
+
+.imagem{
+  border-style: inset;
+  border-width: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: lightblue;
+  margin: 2vw;  
+} 
+
+#imagem {
+  width: 455px;
+  height: 308px;
+  text-align: center;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  font-family: cursive;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.botao {
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  background-color: #ffcb05;
+  border-color: #2c72b8;
+  border-radius: 20px;
+  margin: 10px; 
+  display: inline;
+}
+
+.botao:hover{
+  padding: 5%;
+  background-color: #ffaa05;
+  
+}
+
+.botao:active{
+  padding: 4%;
+  background-color: #ffff05;
+}
+
+table, tr, td {
+  width: 40%;
+  margin: 0 auto;
+  border: solid 2px black;
+}
+
+tr{
+  background-color: #2c72b8;
+  color: white;
+  font-size: 16px;
+}
+
+.listagem {
+  background-color: #ffaa05;
+  color: black;
+  width: 60%;
+ padding: 5px;
+  text-align: center;
+  display: block;
+}
+
+.esconde {
+  display: none;
+}
+
+.botoes{
+  display: inline-block;
+    width: 50%;
+}
+
+
+#resposta{
+  display: inline-block;
+  width: 80%;
+  height: 20px;
+  font-size: 20px;
+  border: inset 4px;
+  background-color: #2c72b8;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#seqmax{
+  display: inline-block;
+  width: 80%;
+  height: 20px;
+  font-size: 20px;
+  border: inset 4px;
+  background-color: #2c72b8;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
