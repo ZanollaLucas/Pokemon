@@ -4,7 +4,7 @@ var indexNumber = 0;
 var sequenciamax = 0;
 var sequencia = 0;
 
-newCharacter();
+
 
 function newCharacter() {
   var pokeImage = document.getElementById("imagem");
@@ -58,6 +58,9 @@ function discover() {
     divResposta.innerHTML = html
   }
 }
+
+newCharacter();
+
 /*
 var pokemonTr = document.querySelector("#trPokemon")
 
